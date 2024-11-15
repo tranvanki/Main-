@@ -1,0 +1,88 @@
+
+#myform {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+     margin-top: -10px;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+footer {
+    background-color: #f1f1f2;
+    border-top: 1px solid #e7e7e7;
+    padding: 10px 0;
+}
+.error {
+    color: #dc3545;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 5px;
+    text-align: center;
+}
+label {
+    font-weight: 500;
+    color: #495057;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1em;
+}
+.gender-container {
+    margin-bottom: 15px;
+}
+.gender-container label {
+    margin-right: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 576px) {
+    #myform {
+        padding: 15px;
+        
+    }
+
+    button {
+        font-size: 1em;
+    }
+}

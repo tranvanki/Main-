@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+    padding: 10px 0;
+    
+}  
+
+.btnLogin-popup:hover { 
+    background-color: #0056b3;
+ }
